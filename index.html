@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+<section class=" container mt-5 p-5    rounded-4  shadow-lg  mx-auto" >
+ <h2   class="text-center fw-400 pb-4 text-capitalize text-black lh-base">product category management systems <br> "CRUD"</h2>
+
+
+<div class="row   mx-auto ">
+<div class="mb-3  col-lg-6 " >             
+  <label for="inputname" class="form-label  text-capitalize  text-black">    </label>
+<input type="text"  placeholder="  Enter the product name        "    class="form-control" id="inputname">
+</div>
+<div class="mb-3  col-lg-6  " >             
+  <label for="input-category" class="form-label  text-capitalize text-black "></label>
+<input type="text" placeholder=" Enter the product category  "    class="form-control" id="input-category">
+</div>
+</div>
+
+
+<div class="mb-3">
+<label for="input-price" class="form-label  text-capitalize  text-black">      </label>
+<input type="text" placeholder=" Enter the product price  " class="form-control" id="input-price">
+</div>
+
+<div class="mb-3">
+  <label for="inputdiscount" class="form-label   text-capitalize text-black  "> </label>
+  <input type="text" placeholder="Enter the product discount   " class="form-control" id="inputdiscount">
+  </div>
+
+  <div class="mb-3   ">
+    <label for="inputdescription" class="form-label text-capitalize   text-black"> </label>
+    <input type="text" placeholder=" Enter the product description  " class="form-control" id="inputdescription">
+    </div>
+
+
+ <div class="mx-auto buttons row my-5  gy-5 ">
+  <button  class=" btn    col-lg-5 text-capitalize" onclick="createproduct()" id="productAddBtn"> add product</button>
+
+<button  class=" btn    col-lg-5 text-capitalize "  onclick="resetinput()"   > reset  </button>
+ </div>
+</section>
+  
+ 
+
+             
+<section   class="container  my-5  "  >  
+
+ <div  class="row py-5 gy-3  " id="rowData"    >
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+ 
+
+</section>
+
+
+
+
+
+
+
+
+<script src="main.js"  ></script>    
+</body>
+</html>
