@@ -29,7 +29,7 @@ if (productAddBtn.innerHTML.includes("add")){
     listpfproduct.push(product);}
 
 else{
-  judy()
+  updateproduct()
 }
 localStorage.setItem('allproduct',JSON.stringify(listpfproduct)  )
 displyproduct()
@@ -50,7 +50,7 @@ for (let  i = 0;  i <listpfproduct.length;  i++) {
 <h5>  description:${listpfproduct[i].description}</h5>
 
 
-<button  class="btn1 mt-3      text-capitalize "  onclick="retriveProduct(${i})" > <i class="fa-solid fa-pen" style="color:rgb(179, 169, 178);"></i>  </button>
+<button  class="btn2 mt-3      text-capitalize "  onclick="retriveProduct(${i})" > <i class="fa-solid fa-pen" style="color:rgb(179, 169, 178);"></i>  </button>
 <button  class="btn1 mt-3  text-capitalize    "  onclick="deleteproduct(${i})" > <i class="fa-solid fa-trash" style="color:    rgb(179, 169, 178);"></i></button>
 </div>
 </div> `}
@@ -74,12 +74,12 @@ console.log(listpfproduct);
   globalid=editid;
  productname.value=listpfproduct[editid].name;
  productcategory.value=listpfproduct[editid].category;
- productprice.valie=listpfproduct[editid].price;
+ productprice.value = listpfproduct[editid].price;
 Producdiscount.value=listpfproduct[editid].discount;
 productdescription.value=listpfproduct[editid].description;
 productAddBtn.innerHTML="update product";}
 
-function  judy(){
+function  updateproduct(){
  listpfproduct [globalid].name=productname.value ;  
  listpfproduct [globalid].category=productcategory.value ;
  listpfproduct[globalid].price=productprice.value ;

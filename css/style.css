@@ -1,47 +1,57 @@
 body{
-background-color: rgb(219, 214, 215); }
+background-image: linear-gradient(45deg, blue,rgb(17, 17, 107),#09c);}
+
+h2{
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .btn{
-background-color: rgb(199, 107, 199);
 margin: auto !important;
 color: white;
 border: 0;
 padding: 0.5rem;
-border-radius: 0,5rem;}
-.btn:hover{
-color: rgb(80, 2, 61) !important;
-border: 1px solid rgb(199, 107, 199) !important;}
-.buttons{
-text-align: center !important;}
+border-radius: 0,5rem;
+}
+ .btn:hover{
+color: rgb(107, 106, 106);
+background-color: white !important;
+} 
+
 .form-control{
 width: 94%;  
 margin: auto;
 transition:all 0.5s !important;  }
-.form-label{
-margin-left: 2.5rem;
-margin-bottom: 1rem; }
 .form-control:hover{
 width:100% ;
-box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.3); }
-.btn1{
-background-color: rgb(255, 11, 153);
+box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3); }
+.btn2{
+background-color: rgb(255, 72, 0);
 color: white;
 border: 0;
 padding-block: 0.6rem;
 padding-inline:1.4rem ;
 border-radius:0.5rem ;
-transition: all 0.7s;}
-.btn1:hover{
-background-color: transparent;
-color: rgb(113, 15, 79);
+transition: all 0.7s   !important; }
+.btn2:hover{
+background-color:rgb(199, 58, 39) ;
 }
-
-
+.btn1{
+  background-color: red  !important;
+  color: white;
+  border: 0;
+  padding-block: 0.6rem;
+  padding-inline:1.4rem ;
+  border-radius:0.5rem ;
+  transition: all 0.7s   !important; }
+  .btn1:hover{
+  background-color: rgb(153, 13, 13) !important;
+}
 .box:hover{
-  box-shadow: 5px 5px 5px 5px rgba(192, 112, 155, 0.3); 
+  box-shadow: 2px 2px 2px 2px silver; 
 }
 .box{
-  background-color: rgb(180, 165, 194);
-  border-radius: 1rem;
+background-color: rgba(245, 245, 245, 0.979);
+border-radius: 1rem;
 padding-inline:2rem ;
 padding-block:1rem;
 

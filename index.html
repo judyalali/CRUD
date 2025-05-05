@@ -11,41 +11,41 @@
 </head>
 <body>
 <section class=" container mt-5 p-5    rounded-4  shadow-lg  mx-auto" >
- <h2   class="text-center fw-400 pb-4 text-capitalize text-black lh-base">product category management systems <br> "CRUD"</h2>
+ <h2   class="text-center fw-400 pb-4 text-capitalize  lh-base">product category management systems <br> "CRUD"</h2>
 
 
 <div class="row   mx-auto ">
 <div class="mb-3  col-lg-6 " >             
-  <label for="inputname" class="form-label  text-capitalize  text-black">    </label>
+  <label for="inputname" class="form-label  text-capitalize  ">    </label>
 <input type="text"  placeholder="  Enter the product name        "    class="form-control" id="inputname">
 </div>
 <div class="mb-3  col-lg-6  " >             
-  <label for="input-category" class="form-label  text-capitalize text-black "></label>
-<input type="text" placeholder=" Enter the product category  "    class="form-control" id="input-category">
+  <label for="input-category" class="form-label  text-capitalize  "></label>
+<input type="text" placeholder=" Enter the product category     "    class="form-control" id="input-category">
 </div>
 </div>
 
 
 <div class="mb-3">
-<label for="input-price" class="form-label  text-capitalize  text-black">      </label>
-<input type="text" placeholder=" Enter the product price  " class="form-control" id="input-price">
+<label for="input-price" class="form-label  text-capitalize ">      </label>
+<input type="number" placeholder=" Enter the product price " class="form-control" id="input-price">
 </div>
 
 <div class="mb-3">
-  <label for="inputdiscount" class="form-label   text-capitalize text-black  "> </label>
-  <input type="text" placeholder="Enter the product discount   " class="form-control" id="inputdiscount">
+  <label for="inputdiscount" class="form-label   "> </label>
+  <input type="text" placeholder="Enter the product discount  " class="form-control       " id="inputdiscount"        >
   </div>
 
   <div class="mb-3   ">
-    <label for="inputdescription" class="form-label text-capitalize   text-black"> </label>
-    <input type="text" placeholder=" Enter the product description  " class="form-control" id="inputdescription">
+    <label for="inputdescription" class="form-label text-capitalize   text-secondary"> </label>
+    <input type="text" placeholder=" Enter the product description  " class="form-control      " id="inputdescription">
     </div>
 
 
- <div class="mx-auto buttons row my-5  gy-5 ">
-  <button  class=" btn    col-lg-5 text-capitalize" onclick="createproduct()" id="productAddBtn"> add product</button>
-
-<button  class=" btn    col-lg-5 text-capitalize "  onclick="resetinput()"   > reset  </button>
+ <div class=" buttons row my-5   gy-lg-2  p-4  ">
+  <button  class=" btn addbtn px-0 offset-lg-2 col-lg-5 text-capitalize  bg-primary " onclick="createproduct()" id="productAddBtn"> add product</button>
+<br> <br> <br>
+<button  class=" btn  resetbtn px-0 col-lg-5 text-capitalize  bg-info "  onclick="resetinput()"   > reset  </button>
  </div>
 </section>
   
