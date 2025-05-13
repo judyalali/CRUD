@@ -5,6 +5,20 @@ h2{
 color: white;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.form-bg{
+  background-image: linear-gradient(45deg, blue,rgb(6, 6, 39),#09c);
+} 
+
+.form-control{
+width: 94%;  
+margin: auto;
+transition:all 0.5s !important;
+  }
+.form-control:hover{
+width:100% ;
+box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+ }
+
 .btn{
 margin: auto !important;
 color: white;
@@ -17,35 +31,50 @@ color: rgb(107, 106, 106);
 background-color: white !important;
 } 
 
-.form-control{
-width: 94%;  
-margin: auto;
-transition:all 0.5s !important;  }
-.form-control:hover{
-width:100% ;
-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3); }
-.btn2{
-background-color: rgb(255, 72, 0);
-color: white;
-border: 0;
-padding-block: 0.6rem;
-padding-inline:1.4rem ;
-border-radius:0.5rem ;
-transition: all 0.7s   !important; }
-.btn2:hover{
-background-color:rgb(199, 58, 39) ;
+
+
+
+
+.btn-edit {
+      background-color: #309898;
+      color: white;
+      border: none;
+      padding: 0.5rem 0.8rem;
+      border-radius: 0.5rem;
+      transition: all 0.3s ease;
+         color: rgba(245, 245, 220, 0.878);
+    }
+.btn-edit:hover {
+  background-color: #3e8d8d ;
+       color: rgba(245, 245, 220, 0.878);
 }
-.btn1{
-  background-color: red  !important;
-  color: white;
-  border: 0;
-  padding-block: 0.6rem;
-  padding-inline:1.4rem ;
-  border-radius:0.5rem ;
-  transition: all 0.7s   !important; }
-  .btn1:hover{
-  background-color: rgb(153, 13, 13) !important;
+
+
+
+
+
+
+     .btn-delete {
+      background-color: #cb0404;
+    color: white;
+    border: none;
+      padding: 0.6rem 0.9rem;
+      border-radius: 0.5rem;
+      transition: all 0.3s ease;
+      color: rgba(245, 245, 220, 0.878);
+    } 
+
+
+
+.btn-delete:hover {
+  background-color:  #930202;
+       color: rgba(245, 245, 220, 0.878);
 }
+.siz-icon {
+  font-size: 1.2rem;
+
+}
+
 .box:hover{
   box-shadow: 2px 2px 2px 2px silver; 
 }
@@ -53,7 +82,4 @@ background-color:rgb(199, 58, 39) ;
 background-color: rgba(245, 245, 245, 0.979);
 border-radius: 1rem;
 padding-inline:2rem ;
-padding-block:1rem;
-
-}
-
+padding-block:1rem;}
